@@ -18,7 +18,7 @@ If you use the code associated with this package, please cite:
 
 In addition, please cite the original authors of NeiA/NeiWA:
 
-```bibtext
+```bibtex
 @inproceedings{liu2020deep,
   title={Deep learning of high-order interactions for protein interface prediction},
   author={Liu, Yi and Yuan, Hao and Cai, Lei and Ji, Shuiwang},
