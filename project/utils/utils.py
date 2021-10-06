@@ -379,8 +379,8 @@ def collect_args():
     # -----------------
     parser.add_argument('--logger_name', type=str, default='TensorBoard', help='Which logger to use for experiments')
     parser.add_argument('--experiment_name', type=str, default=None, help='Logger experiment name')
-    parser.add_argument('--project_name', type=str, default='DeepInteract', help='Logger project name')
-    parser.add_argument('--entity', type=str, default='entity', help='Logger entity (i.e. team) name')
+    parser.add_argument('--project_name', type=str, default='NeiA-PyTorch', help='Logger project name')
+    parser.add_argument('--entity', type=str, default='PyTorch', help='Logger entity (i.e. team) name')
     parser.add_argument('--run_id', type=str, default='', help='Logger run ID')
     parser.add_argument('--offline', action='store_true', dest='offline', help='Whether to log locally or remotely')
     parser.add_argument('--online', action='store_false', dest='offline', help='Whether to log locally or remotely')
